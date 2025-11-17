@@ -1,0 +1,171 @@
+/* General page style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #34495e;
+}
+
+nav p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content container */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* ---------- HOME PAGE ---------- */
+
+.home-page main {
+    background-image: url("WorldMap.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Destinations table on home page */
+.dest-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.dest-table th,
+.dest-table td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.dest-table th {
+    background-color: #34495e;
+    color: white;
+}
+
+/* ---------- DESTINATION PAGES ---------- */
+
+.destination-page {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.destination-page main {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Layout table for each place */
+.place-layout {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.place-layout td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Image cell */
+.place-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Text cell */
+.place-text h2 {
+    margin-top: 0;
+}
+
+.place-text p {
+    line-height: 1.6;
+}
+
+/* Back-to-home link */
+.back-home {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-home a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* ---------- BACKGROUND IMAGES PER DESTINATION ---------- */
+
+.colosseum-page {
+    background-image: url("Colosseum.jpeg");
+}
+
+.higashiyama-page {
+    background-image: url("Higashiyama Ward.jpeg");
+}
+
+.huaykeaw-page {
+    background-image: url("Huay Keaw Waterfall.jpeg");
+}
+
+.solden-page {
+    background-image: url("Solden Ski Site.jpeg");
+}
+
+.golden-page {
+    background-image: url("The Golden Pavillion.jpeg");
+}
